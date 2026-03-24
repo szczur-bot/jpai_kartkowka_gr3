@@ -1,0 +1,134 @@
+    1  git remote add test1 https://github.com/szczur-bot/test1.git
+    2  ls -a
+    3  git init
+    4  git remote add test1 https://github.com/szczur-bot/test1.git
+    5  git remote -v
+    6  git status
+    7  git add
+    8  git add .
+    9  git status
+   10  git commit .
+   11  git config --global user.email matcezsokol@gmail.com
+   12  git config --globa user.name "szczur"
+   13  git config --global user.email "matcezsokol@gmail.com"
+   14  git commit .
+   15  git remote remove test1
+   16  git status
+   17  git remote -v
+   18  mkdir test1
+   19  ls
+   20  cd test1
+   21  git init
+   22  git remote add test1 https://github.com/szczur-bot/test1.git
+   23  git remove -v
+   24  git remote -v
+   25  git config --globa user.name "szczur"
+   26  git config --global user.email "matcezsokol@gmail.com"
+   27  git add .
+   28  git status
+   29  git pull origin master
+   30  git pull test1 master
+   31  git pull test1 main
+   32  ls
+   33  nano homjak
+   34  git branch 2.0
+   35  git branch
+   36  git checkout 2.0
+   37  touch dupa.txt
+   38  nano dupa
+   39  ls
+   40  rm dupa
+   41  ls
+   42  nano dupa.txt
+   43  ls
+   44  git status
+   45  git add dupa.txt
+   46  git commit -m fajne
+   47  ls
+   48  git status
+   49  git push test 1 2.0
+   50  git remote -v
+   51  cd
+   52  ls
+   53  rm -r test1
+   54  ls
+   55  cd test1
+   56  git branch -d 2.0
+   57  git status
+   58  git remote -v
+   59  q
+   60  ls
+   61  cd
+   62  ls
+   63  rm -r test1
+   64  ls
+   65  rm test1
+   66  ls
+   67  cd test1
+   68  git clone https://github.com/szczur-bot/test1.git
+   69  ls
+   70  cd test1
+   71  ls
+   72  cd
+   73  ls
+   74  cd docker-lab
+   75  ls
+   76  cd
+   77  rm
+   78  touch
+   79  dockerfil
+   80  mv
+   81  ls
+   82  git clone https://github.com/szczur-bot/jpai_kartkowka_gr3.git
+   83  ls
+   84  cd jpai_kartkowka_gr3
+   85  ls
+   86  nano Dockerfile
+   87  docker build -t obraz:v5
+   88  docker build -t "obraz:v5"
+   89  docker build "obraz:v5"
+   90  docker build obraz:v5
+   91  nano Dockerfile
+   92  nano package.json
+   93  docker build obraz:v5
+   94  nano Dockerfile
+   95  docker build obraz:v5
+   96  docker build -t "obraz:v5"
+   97  docker build -t obraz:v5
+   98  nano Dockerfile
+   99  docker build -t obraz:v5
+  100  nano Dockerfile
+  101  ls
+  102  docker build -t obraz:v5
+  103  docker build -t obrazv5
+  104  docker build -h
+  105  docker buildx build -t obraz:V5
+  106  docker build -t obraz:v5 https://github.com/szczur-bot/jpai_kartkowka_gr3.git
+  107  ls
+  108  nano Dockerfile
+  109  git status
+  110  git add Dockerfile
+  111  git commit Dockerfile
+  112  git status
+  113  nano Dockerfile
+  114  docker build -t obraz:v5 https://github.com/szczur-bot/jpai_kartkowka_gr3.git
+  115  nano Dockerfile
+  116  docker build -t obraz:v5 https://github.com/szczur-bot/jpai_kartkowka_gr3.git
+  117  ls
+  118  docker build -t obraz:v5 /jpait_kartkowka_gr3
+  119  docker build -t obraz:v5 student@student-36:~/jpait_kartkowka_gr3
+  120  docker build -t obraz:v5 jpai_kartkowka_gr3
+  121  docker build -t obraz:v5
+  122  docker build -t obraz:v5 Dockerfile
+  123  docker build -t obraz:v5 .
+  124  docker run -d -p 4123:3000 --name kontener kontener1
+  125  docker run -d -p 4123:3000 --name kontener1 kontener
+  126  docker run -d -p 4123:3000 --name kontener kontener
+  127  docker run -d -p 4123:3000 --name kontener obrazv5
+  128  docker run -d -p 4123:3000 --name kontener obraz:v5
+  129  curl -f http://localhost:4123/
+  130  docker rm -f kontener
+  131  focker rm -f obraz:v5
+  132  docker rm -f obraz:v5
+  133  docker rm obraz:v5
+  134  history | tee docker.log
